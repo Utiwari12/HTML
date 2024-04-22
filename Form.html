@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Enquary</h2>
+    <form>
+        <fieldset>
+            <legend>Enquary</legend>
+        Name: <input type="text" name="Name" value="" placeholder="Plz enter your name"/>
+        <br>
+        <br>
+        Mob. Number: <input type="number" number="Number" placeholder="Plz enter your mobile number"/>
+        <br/>
+        <br/>
+        Address:<textarea name="Address"></textarea>
+        <br>
+        <br>
+        Gender:
+        <input type="radio" value="m" name="Gender"/> Male
+        <input type="radio" value="f" name="Gender"/> Female
+        <input type="radio" value="o" name="Gender"/> Other
+        <br>
+        <br>
+        Country:
+        <select>
+            <optgroup label="Asia">
+                <option>Plz select a country</option>
+            <option value="India">India</option>
+            <option value="NEPAL">NEPAL</option>
+            
+            <option value="Lanka">Lanka</option>
+        </optgroup>
+            <option value="USA">USA</option>
+        </select>
+        <br>
+        <br>
+        Hobbies:
+        <input type="checkbox" value="Hobbies[]"/>Reading
+        <input type="checkbox" value="Hobbies[]"/>Playing
+        <input type="checkbox" value="Hobbies[]"/>Dancing
+        <br>
+        <br>
+        Image:
+        <input type="file" name="image"/>
+        <br>
+        <br>
+        <input type="submit" value="send"/>
+        
+        <input type="reset"/>
+    </fieldset>
+    </form>
+</body>
+</html>
