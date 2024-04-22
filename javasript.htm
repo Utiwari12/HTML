@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    </script>
+</head>
+<body>
+    <script src="javascri.js"></script>
+    <h2>My First JavaScript</h2>
+    <p id="demo"></p>
+    <h2> JavaScript oprator</h2>
+    <p> JavaScript used airthmatic operator </p>
+    <script>
+let x;
+x=10;
+document.getElementById("demo").innerHTML=x;
+
+    </script>
+    <script>
+       document.getElementById("demo").innerHTML=(3+7)/3
+       //console.log("write any thing as He is going");
+      // console.warn("This is warning")
+       //console.error("this is error")
+
+    </script>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+<h1>JavaScript Comparison</h1>
+<h2>The () ? : Ternary Operator</h2>
+
+<p>Input your age and click the button:</p>
+
+<input id="age" value="18" />
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+      let age = document.getElementById("age").value;
+      let voteable = (age < 18) ? "Too young":"Old enough";
+      document.getElementById("demo").innerHTML = voteable + " to vote.";
+    }
+    </script>
+
+</body>
+</html>
